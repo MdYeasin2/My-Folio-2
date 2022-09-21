@@ -1,0 +1,106 @@
+/* commmon css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+/* common css End */
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: sans-serif;
+}
+/* nav section css  start*/
+nav{
+    background-color: #02918b;
+
+}
+.container{
+    width: 1170px ;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width:20%;
+}
+.menu{
+    width: 80%;
+    justify-content: flax-end;
+}
+nav .menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav .menu ul li a{
+display: inline-block;
+font-size: 12px;
+color:#fff;
+font: weight 800;
+padding:26px 25px;
+text-transform:uppercase;
+transition:.5s;
+
+}
+nav .menu ul li a:hover{
+    color: #cfc91d;
+ 
+    
+}
+
+/* nav section css end */
+
+#banner .container{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    
+}
+/* banner section Start */
+#banner{
+ 
+    background-image: url(../img/banner\ img.jpg);
+    height: 728px;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+#banner .container{
+   height: 100%;
+   display: flex;
+   align:center;
+}
+#banner h3{
+    font-size: 30px;
+    font-weight: 400;
+
+}
+#banner h1{
+    font-size: 68px;
+    font-weight: 800px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+
+}
+#banner p{
+    font-size: 18px;
+}
+#banner img{
+    display: block;
+    margin: auto;
+}
+#banner a{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 800px;
+    background-color: #cfc91d;
+    padding: 17px 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+/* banner section End */
